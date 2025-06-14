@@ -1,0 +1,8 @@
+Composite: When I check that the page is correct
+When I wait until element located by `caseSensitiveText(Swag Labs)` appears
+Then `${current-page-url}` is equal to `https://www.saucedemo.com/`
+
+Composite: When I fill $username, $password
+When I enter `<username>` in field located by `xpath(//input[@id="user-name"])`
+And I enter `<password>` in field located by `xpath(//input[@id="password"])`
+And I click on element located by `xpath(//input[@id="login-button"])`

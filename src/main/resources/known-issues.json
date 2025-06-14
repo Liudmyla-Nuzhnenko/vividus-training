@@ -1,2 +1,12 @@
 {
+  "BUG-1": {
+    "type": "Internal",
+    "assertionPattern": ".*Expected: \\\"https://www.saucedemo.com/inventory.html\\\" Actual: was \\\"https://www.saucedemo.com/\\\".*",
+    "description": "Login to be fixed for the user"
+  },
+  "BUG-002": {
+    "type": "Internal",
+    "assertionPattern": ".*Expected:.*<6> Actual:.*<0>.*",
+    "description": "This defect will be fixed automatically after BUG-001 is fixed"
+  }
 }
