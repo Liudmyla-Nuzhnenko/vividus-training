@@ -1,1 +1,3 @@
-
+Composite: When I check that the page is correct
+When I wait until element located by `caseSensitiveText(Swag Labs)` appears
+Then `${current-page-url}` is equal to `https://www.saucedemo.com/`
